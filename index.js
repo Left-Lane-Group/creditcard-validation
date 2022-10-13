@@ -28,7 +28,7 @@ const isCardNumberValid = payform.validateCardNumber('4242424242424242'); //=> t
 const cardType = payform.parseCardType('4242424242424242'); //=> 'visa'
 
 // Format card number
-const formattedCardNumber = payform.formatCardNumber('4242424242424242'); //=> 4242 4242 4242 4242
+const formattedCardNumber = payform.formatCardNumber('44444'); //=> 4242 4242 4242 4242
 
 // format card expiry
 const formmatedCardExpiry = payform.formatCardExpiry('1022'); //=> 10 / 22
