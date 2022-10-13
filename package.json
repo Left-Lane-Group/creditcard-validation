@@ -1,0 +1,12 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "creditcards": "^4.2.0",
+    "creditcards-types": "^3.3.0",
+    "payform": "^1.4.0"
+  }
+}
