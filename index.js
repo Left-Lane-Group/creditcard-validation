@@ -40,6 +40,8 @@ const isExpiryValid = payform.validateCardExpiry(parsedCardExpiry); //=> true
 
 // validate cvc
 const isCvcValid = payform.validateCardCVC('123'); //=> true
+const formatCardCVC = payform.formatCardCVC("124")
+console.log(formatCardCVC)
 
 console.log({
   type: cardType,

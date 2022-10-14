@@ -11,3 +11,4 @@ expiration.isPast(10, 2010)
 // => true
 
 console.log(card.format("4242424242424242"))
+console.log(card)
